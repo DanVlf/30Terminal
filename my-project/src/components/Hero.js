@@ -3,19 +3,22 @@
 
 function Navbar() {
     return (
-            <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500">
-                <div className ="">
-                <div className="text-center text-green-500 text-6xl">
-                    AHOJ TEST
+        <section className="h-500 0 font-link">
+            <section className="">
+                
+                <div className="flex text-left h-screen p-10 text-6xl">
+                    <div className="mt-4">
+                        AHOJ TEST
+                    </div>
                 </div>
-                </div>
-            </div>
-        
-      
-  
-  
+            </section>
+        </section>
+
+
+
+
+
     );
-  }
-  
-  export default Navbar;
-  
+}
+
+export default Navbar;
